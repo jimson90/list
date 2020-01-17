@@ -1,0 +1,67 @@
+#Lists are a collection of ordered and chanageable data types
+
+
+#Training 1
+
+cologne = ["One Million", "Acqua di Gio", "Invictus Legend","Bvlgari Wood Essence"]
+print(cologne[0])
+
+#This establishes a list of colognes. The print statement will print out "One Million" from the list
+
+
+
+#Training 2
+
+cologne = ["One Million", "Acqua di Gio", "Invictus Legend","Bvlgari Wood Essence"]
+if "Invictus Legend" in cologne:
+	print("Invictus Legend is included")
+	
+#This if statement checks to see if a certain variable is in the list, if so it prints out the given phrase.
+
+
+#Training 3
+
+cologne = ["One Million", "Acqua di Gio", "Invictus Legend","Bvlgari Wood Essence"]
+print(len(cologne))
+
+#This prints out the length of the list
+
+#Training 4
+
+cologne = ["One Million", "Acqua di Gio", "Invictus Legend","Bvlgari Wood Essence"]
+cologne.insert(1, "Coolwater")
+print(cologne)
+
+#Adds Coolwater after One Million
+
+#Training 5
+
+cologne = ["One Million", "Acqua di Gio", "Invictus Legend","Bvlgari Wood Essence"]
+cologne.remove("Acqua di Gio")
+print(cologne)
+
+#removes Acqua di Gio from the list
+
+#Training 6
+
+cologne = ["One Million", "Acqua di Gio", "Invictus Legend","Bvlgari Wood Essence"]
+essentials = ["Toothpaste","Toothbrush","Conditioner"]
+
+ce = cologne + essentials
+print(ce)
+
+#combines the two lists
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
